@@ -1,0 +1,218 @@
+.menu {
+  background-color: #4CAF50;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.menu-left {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-right ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.menu-right ul li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.menu-right ul li:hover {
+	text-decoration: underline;
+}
+
+.menu-right ul li a {
+  color: var(--branco);
+  text-decoration: none;
+  padding: 10px;
+}
+.trabalho{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 50px;
+}
+
+.trabalho strong{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 1rem;
+    min-height: 80vh;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-left: 200px;
+
+}
+
+.wrapper{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container h1{
+	margin-right: auto;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+td a{
+	color: #4CAF50;
+}
+
+td a:hover{
+	color: #4CAF50;
+}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.3rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #95a5a6;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10%;
+  max-width: 900px;
+}
+
+.form-container form{
+	width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form-group-buttons{
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+label {
+  font-weight: bold;
+  text-wrap: nowrap;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #7f8c8d;
+  border-radius: 4px;
+  width: 100%;
+}
+
+input[type="submit"],
+.button {
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    color:  var(--branco);
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    min-width: 120px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+input[type="submit"]:hover,
+.button:hover {
+  background-color: var(--azul-claro);
+  text-decoration: none;
+}
+
+.btn-cinza{
+	background-color: #95a5a6;
+}
+
+.sidebar {
+    position: absolute;
+    width: 200px; /* Defina a largura desejada */
+    height: 100vh;
+    background-color: #f1f1f1; /* Defina a cor de fundo desejada */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #333; /* Defina a cor do texto desejada */
+}
+
+.sidebar li a:hover {
+    color: #000; /* Defina a cor do texto ao passar o mouse */
+    font-weight: bold; /* Opcional: Defina um estilo diferente ao passar o mouse */
+}

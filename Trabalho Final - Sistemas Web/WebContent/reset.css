@@ -1,0 +1,62 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+:root {
+  --verde: #4CAF50;
+  --azul-claro: #3498db;
+  --branco: #ecf0f1;
+  --cinza: #2c3e50;
+}
+
+/* Define estilos de caixa padrão */
+body, input, textarea, select, button {
+  box-sizing: border-box;
+}
+
+/* Remove estilos de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove decoração de links */
+a {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+a:active,
+a:visited,
+a:hover {
+	text-decoration: underline;
+    color: var(--branco);
+}
+
+/* Define cores padrão para elementos de cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Define fonte e tamanho padrão para elementos de cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* Limpa o estilo do botão */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
